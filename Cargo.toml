@@ -1,0 +1,18 @@
+[package]
+name        = "approx_pearson_skew"
+version     = "0.1.0"
+description = "Pearson second skew coefficient, using micromath square root approximation"
+authors     = ["hazelutf8 <hazelutf8@protonmail.com>"]
+license     = "Apache-2.0 OR MIT"
+repository  = "https://github.com/hazelutf8/approx_pearson_skew"
+readme      = "README.md"
+edition     = "2018"
+categories  = ["embedded", "mathematics", "no-std"]
+keywords    = ["math", "no_std", "pearson", "skew"]
+
+[dependencies]
+micromath = "1.1.1"
+
+[[example]]
+name = "stdin_skew"
+path = "examples/stdin_skew.rs"
